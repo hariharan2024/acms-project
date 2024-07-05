@@ -1,0 +1,51 @@
+/* Define styles for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Define styles for table headers */
+  th {
+    background-color: #4CAF50; /* Green background */
+    color: rgb(16, 8, 8); /* White text */
+    font-size: 20px;
+    font-weight: bold; /* Bold text */
+    padding: 8px; /* Padding */
+    text-align: center; /* Left-align text */
+    border-bottom: 2px solid #ddd; /* Bottom border */
+    cursor: pointer; /* Enable cursor on hover */
+    border: 1px solid #090000;
+  }
+  
+  th:hover {
+    background-color: #060706; /* Darker green on hover */
+    color: #f1eaea;
+  }
+
+  /* Define styles for table data cells */
+  td {
+    padding: 8px; /* Padding */
+    font-size: 15px;
+    border-bottom: 1px solid #ddd; /* Bottom border */
+    text-align: center;
+  }
+  
+  /* Define styles for alternate rows */
+  tr:nth-child(even) {
+    background-color: #f2f2f29c; /* Light gray background for even rows */
+    color: #2a2020;
+  }
+  
+  /* Define hover effect on table rows */
+  tr:hover {
+    
+    color:rgb(60, 230, 21) ;
+    background-color: #090000;
+    
+    
+  }
+  tr {
+    background-color: #2a2020; /* Darker gray background on hover */
+    color: #f1eaea;
+  }
+  
